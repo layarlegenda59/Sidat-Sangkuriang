@@ -131,7 +131,6 @@ const TrainingPage: React.FC<TrainingPageProps> = ({ onPageChange }) => {
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
             <div className="absolute bottom-10 right-10 w-24 h-24 bg-blue-500 rounded-full"></div>
-            <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-purple-500 rounded-full"></div>
           </div>
           
           <div className="text-center mb-16 relative z-10">
