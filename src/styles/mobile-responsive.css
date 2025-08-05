@@ -1,0 +1,328 @@
+/* Mobile Responsive Styles - Global Implementation */
+
+/* Base mobile styles for screens smaller than 768px */
+@media (max-width: 767px) {
+  /* Typography adjustments for mobile readability */
+  h1 {
+    font-size: 2rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  h2 {
+    font-size: 1.75rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  h3 {
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  h4 {
+    font-size: 1.25rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  /* Large text elements */
+  .text-5xl, .text-6xl {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  .text-4xl {
+    font-size: 2rem !important;
+    line-height: 1.3 !important;
+  }
+  
+  .text-3xl {
+    font-size: 1.75rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .text-2xl {
+    font-size: 1.5rem !important;
+    line-height: 1.4 !important;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  .text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.5 !important;
+  }
+  
+  /* Container and spacing adjustments */
+  .max-w-7xl, .max-w-6xl, .max-w-5xl {
+    max-width: 100% !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Padding and margin adjustments */
+  .py-16 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+  
+  .py-12 {
+    padding-top: 2.5rem !important;
+    padding-bottom: 2.5rem !important;
+  }
+  
+  .py-10 {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+  
+  .py-8 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  
+  .p-10, .p-8 {
+    padding: 1.5rem !important;
+  }
+  
+  .p-6 {
+    padding: 1rem !important;
+  }
+  
+  .px-10, .px-8 {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+  
+  .px-6 {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Grid adjustments */
+  .grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Button adjustments for touch targets */
+  button {
+    min-height: 44px !important;
+    padding: 0.75rem 1rem !important;
+    font-size: 0.875rem !important;
+  }
+  
+  /* Large buttons */
+  .py-5 {
+    padding-top: 0.875rem !important;
+    padding-bottom: 0.875rem !important;
+  }
+  
+  .py-4 {
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
+  
+  /* Form inputs for better mobile interaction */
+  input, textarea, select {
+    min-height: 44px !important;
+    font-size: 1rem !important;
+    padding: 0.75rem !important;
+  }
+  
+  /* Navigation adjustments */
+  nav {
+    padding: 0.75rem 1rem !important;
+  }
+  
+  /* Card adjustments */
+  .rounded-3xl {
+    border-radius: 1rem !important;
+  }
+  
+  .rounded-2xl {
+    border-radius: 0.75rem !important;
+  }
+  
+  /* Image and thumbnail adjustments */
+  .w-20, .h-20 {
+    width: 4rem !important;
+    height: 4rem !important;
+  }
+  
+  .w-16, .h-16 {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+  }
+  
+  .w-12, .h-12 {
+    width: 3rem !important;
+    height: 3rem !important;
+  }
+  
+  /* Space adjustments */
+  .space-y-8 > * + * {
+    margin-top: 1.5rem !important;
+  }
+  
+  .space-y-6 > * + * {
+    margin-top: 1rem !important;
+  }
+  
+  .space-y-4 > * + * {
+    margin-top: 0.75rem !important;
+  }
+  
+  .space-x-6 > * + * {
+    margin-left: 1rem !important;
+  }
+  
+  .space-x-4 > * + * {
+    margin-left: 0.75rem !important;
+  }
+  
+  /* Margin bottom adjustments */
+  .mb-12, .mb-16, .mb-20 {
+    margin-bottom: 2rem !important;
+  }
+  
+  .mb-10 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .mb-8 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .mb-6 {
+    margin-bottom: 0.75rem !important;
+  }
+  
+  /* Flex adjustments for mobile */
+  .flex-col {
+    flex-direction: column !important;
+  }
+  
+  /* Hide elements that might be too small on mobile */
+  .hidden-mobile {
+    display: none !important;
+  }
+  
+  /* Ensure proper touch targets */
+  .w-10, .h-10 {
+    width: 2.75rem !important;
+    height: 2.75rem !important;
+  }
+  
+  .w-8, .h-8 {
+    width: 2.25rem !important;
+    height: 2.25rem !important;
+  }
+  
+  /* Chat assistant adjustments */
+  .fixed {
+    position: fixed !important;
+  }
+  
+  /* Ensure proper spacing for mobile cards */
+  .gap-10 {
+    gap: 1.5rem !important;
+  }
+  
+  .gap-8 {
+    gap: 1rem !important;
+  }
+  
+  .gap-6 {
+    gap: 0.75rem !important;
+  }
+}
+
+/* Tablet adjustments for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .text-5xl, .text-6xl {
+    font-size: 3rem !important;
+  }
+  
+  .text-4xl {
+    font-size: 2.5rem !important;
+  }
+  
+  .text-3xl {
+    font-size: 2rem !important;
+  }
+  
+  .max-w-7xl, .max-w-6xl {
+    max-width: 100% !important;
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+  }
+  
+  .grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 2rem !important;
+  }
+}
+
+/* Ensure proper mobile menu behavior */
+@media (max-width: 767px) {
+  /* Mobile navigation specific adjustments */
+  .lg\:flex {
+    display: none !important;
+  }
+  
+  .lg\:hidden {
+    display: block !important;
+  }
+  
+  /* Mobile menu items */
+  .mobile-menu {
+    position: absolute !important;
+    top: 100% !important;
+    left: 0 !important;
+    right: 0 !important;
+    background: white !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+    z-index: 50 !important;
+  }
+  
+  .mobile-menu a {
+    display: block !important;
+    padding: 1rem !important;
+    border-bottom: 1px solid #e5e7eb !important;
+  }
+}
+
+/* Ensure text remains readable on all screen sizes */
+@media (max-width: 480px) {
+  /* Extra small screens */
+  .text-5xl, .text-6xl {
+    font-size: 2rem !important;
+  }
+  
+  .text-4xl {
+    font-size: 1.75rem !important;
+  }
+  
+  .text-3xl {
+    font-size: 1.5rem !important;
+  }
+  
+  .text-2xl {
+    font-size: 1.25rem !important;
+  }
+  
+  .px-4 {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+  
+  .p-6 {
+    padding: 0.75rem !important;
+  }
+  
+  .p-8, .p-10 {
+    padding: 1rem !important;
+  }
+}

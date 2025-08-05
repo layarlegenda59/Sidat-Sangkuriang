@@ -1,0 +1,360 @@
+/* Desktop Optimizations for Sidat Sangkuriang Website */
+/* Optimized for professional desktop viewing experience */
+
+/* Base desktop improvements */
+@media (min-width: 1024px) {
+  /* Enhanced typography for desktop readability */
+  body {
+    font-size: 1.0625rem; /* 17px - optimal for desktop reading */
+    line-height: 1.65;
+    letter-spacing: -0.005em;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Professional heading hierarchy */
+  h1 {
+    font-size: clamp(2.75rem, 4.5vw, 4.25rem);
+    line-height: 1.15;
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+
+  h2 {
+    font-size: clamp(2.125rem, 3.5vw, 3.25rem);
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    font-weight: 650;
+    margin-bottom: 1.25rem;
+  }
+
+  h3 {
+    font-size: clamp(1.625rem, 2.75vw, 2.125rem);
+    line-height: 1.35;
+    letter-spacing: -0.015em;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+
+  /* Optimized paragraph text for desktop */
+  p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75;
+    max-width: 68ch;
+    margin-bottom: 1.5rem;
+    color: rgb(55, 65, 81); /* Slightly darker for better contrast */
+  }
+
+  /* Professional button styling */
+  button {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    line-height: 1.5;
+  }
+
+  /* Professional container constraints */
+  .container-constrained {
+    max-width: 1320px; /* Optimal reading width */
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* Optimized section spacing for desktop */
+  .section-padding {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
+
+  .section-padding-lg {
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+  }
+
+  /* Enhanced card grid spacing */
+  .card-grid {
+    gap: 2.75rem;
+  }
+
+  /* Professional content width constraints */
+  .max-width-constrained {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Professional navigation styling */
+  .nav-desktop {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.005em;
+    line-height: 1.5;
+  }
+
+  /* Enhanced hero section for desktop */
+  .hero-title {
+    font-size: clamp(3.25rem, 5.5vw, 4.75rem);
+    line-height: 1.12;
+    letter-spacing: -0.03em;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.375rem, 2.25vw, 1.625rem);
+    line-height: 1.65;
+    max-width: 62ch;
+    margin-bottom: 2.5rem;
+    font-weight: 450;
+  }
+
+  /* Professional feature card styling */
+  .feature-card {
+    padding: 2.75rem 2.5rem;
+    border-radius: 1.75rem;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .feature-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.15);
+  }
+
+  .feature-card h3 {
+    font-size: 1.625rem;
+    margin-bottom: 1.75rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .feature-card p {
+    font-size: 1.0625rem;
+    line-height: 1.7;
+    color: rgb(75, 85, 99);
+  }
+
+  /* Enhanced CTA button styling */
+  .cta-button {
+    padding: 1.125rem 2.75rem;
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 0.875rem;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    line-height: 1.4;
+  }
+
+  .cta-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.2);
+  }
+
+  .cta-button-lg {
+    padding: 1.375rem 3.25rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 1.125rem;
+    line-height: 1.4;
+  }
+}
+
+/* Large desktop optimizations (1440px+) */
+@media (min-width: 1440px) {
+  /* Enhanced typography for large screens */
+  body {
+    font-size: 1.1875rem; /* 19px */
+    line-height: 1.7;
+  }
+
+  .hero-title {
+    font-size: clamp(4.25rem, 6.5vw, 5.75rem);
+    line-height: 1.1;
+    margin-bottom: 2.25rem;
+  }
+
+  .hero-subtitle {
+    font-size: clamp(1.625rem, 2.75vw, 1.875rem);
+    line-height: 1.65;
+    margin-bottom: 3rem;
+  }
+
+  /* Enhanced spacing for large screens */
+  .section-padding-lg {
+    padding-top: 8.5rem;
+    padding-bottom: 8.5rem;
+  }
+
+  .feature-card {
+    padding: 3.25rem 3rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .feature-card p {
+    font-size: 1.125rem;
+  }
+
+  /* Enhanced container constraints */
+  .container-constrained {
+    max-width: 1440px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+}
+
+/* Ultra-wide desktop optimizations (1920px+) */
+@media (min-width: 1920px) {
+  /* Optimal content width constraints for ultra-wide */
+  .max-width-constrained {
+    max-width: 1680px;
+    margin: 0 auto;
+  }
+
+  .container-constrained {
+    max-width: 1600px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  /* Prevent excessive text line length */
+  p {
+    max-width: 72ch;
+  }
+
+  .hero-subtitle {
+    max-width: 68ch;
+  }
+
+  /* Enhanced spacing for ultra-wide */
+  .section-padding-lg {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .card-grid {
+    gap: 3.25rem;
+  }
+}
+
+/* Enhanced interactive elements and micro-interactions */
+@media (min-width: 1024px) {
+  /* Smooth transitions for professional feel */
+  * {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+  }
+
+  /* Enhanced hover effects */
+  .hover-lift:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px -8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Professional focus states */
+  button:focus-visible,
+  a:focus-visible {
+    outline: 2px solid #0d9488;
+    outline-offset: 3px;
+    border-radius: 0.5rem;
+  }
+
+  /* Badge styling optimization */
+  .badge {
+    font-size: 0.9375rem;
+    font-weight: 500;
+    padding: 0.625rem 1.25rem;
+    border-radius: 2rem;
+    letter-spacing: 0.01em;
+  }
+
+  /* Form elements optimization */
+  input, textarea, select {
+    font-size: 1.0625rem;
+    line-height: 1.5;
+    padding: 0.875rem 1.125rem;
+  }
+
+  /* Enhanced navigation spacing */
+  nav a {
+    padding: 0.75rem 1.25rem;
+    margin: 0 0.25rem;
+    border-radius: 0.5rem;
+  }
+
+  /* Professional card shadows */
+  .card {
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.08);
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 24px -4px rgba(0, 0, 0, 0.12);
+  }
+}
+
+/* Additional desktop typography refinements */
+@media (min-width: 1024px) {
+  /* Enhanced text hierarchy */
+  .text-xs { font-size: 0.8125rem; line-height: 1.5; }
+  .text-sm { font-size: 0.9375rem; line-height: 1.55; }
+  .text-base { font-size: 1.0625rem; line-height: 1.65; }
+  .text-lg { font-size: 1.1875rem; line-height: 1.7; }
+  .text-xl { font-size: 1.3125rem; line-height: 1.6; }
+  .text-2xl { font-size: 1.5625rem; line-height: 1.5; }
+  .text-3xl { font-size: 1.9375rem; line-height: 1.4; }
+  .text-4xl { font-size: 2.4375rem; line-height: 1.3; }
+  .text-5xl { font-size: 3.0625rem; line-height: 1.2; }
+  .text-6xl { font-size: 3.8125rem; line-height: 1.1; }
+
+  /* Professional spacing utilities */
+  .space-y-6 > * + * { margin-top: 1.75rem; }
+  .space-y-8 > * + * { margin-top: 2.25rem; }
+  .space-y-12 > * + * { margin-top: 3.25rem; }
+  .space-y-16 > * + * { margin-top: 4.25rem; }
+
+  /* Enhanced margin utilities */
+  .mb-6 { margin-bottom: 1.75rem; }
+  .mb-8 { margin-bottom: 2.25rem; }
+  .mb-12 { margin-bottom: 3.25rem; }
+  .mb-16 { margin-bottom: 4.25rem; }
+
+  /* Professional padding utilities */
+  .p-6 { padding: 1.75rem; }
+  .p-8 { padding: 2.25rem; }
+  .px-6 { padding-left: 1.75rem; padding-right: 1.75rem; }
+  .py-6 { padding-top: 1.75rem; padding-bottom: 1.75rem; }
+  .px-8 { padding-left: 2.25rem; padding-right: 2.25rem; }
+  .py-8 { padding-top: 2.25rem; padding-bottom: 2.25rem; }
+
+  /* Enhanced border radius for modern look */
+  .rounded-xl { border-radius: 1rem; }
+  .rounded-2xl { border-radius: 1.25rem; }
+  .rounded-3xl { border-radius: 1.75rem; }
+}
+
+/* Print optimizations */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: black;
+    background: white;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  p {
+    orphans: 3;
+    widows: 3;
+  }
+}
