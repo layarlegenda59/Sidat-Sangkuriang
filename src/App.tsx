@@ -4,14 +4,14 @@ import { CartProvider } from './contexts/CartContext';
 import Navbar from './components/Navbar';
 import ChatAssistant from './components/ChatAssistant';
 import SEOHead from './components/SEOHead';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import FarmingPage from './pages/FarmingPage';
-import TrainingPage from './pages/TrainingPage';
-import ProductsPage from './pages/ProductsPage';
-import EducationPage from './pages/EducationPage';
-import ContactPage from './pages/ContactPage';
-import CheckoutPage from './pages/CheckoutPage';
+import HomePage from './views/HomePage';
+import AboutPage from './views/AboutPage';
+import FarmingPage from './views/FarmingPage';
+import TrainingPage from './views/TrainingPage';
+import ProductsPage from './views/ProductsPage';
+import EducationPage from './views/EducationPage';
+import ContactPage from './views/ContactPage';
+import CheckoutPage from './views/CheckoutPage';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('home');
