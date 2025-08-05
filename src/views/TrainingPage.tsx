@@ -130,7 +130,6 @@ const TrainingPage: React.FC<TrainingPageProps> = ({ onPageChange }) => {
         <div className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-12 shadow-xl mb-20 border border-gray-100 relative overflow-hidden">
           {/* Background Pattern */}
           <div className="absolute inset-0 opacity-5">
-            <div className="absolute top-10 left-10 w-32 h-32 bg-teal-500 rounded-full"></div>
             <div className="absolute bottom-10 right-10 w-24 h-24 bg-blue-500 rounded-full"></div>
             <div className="absolute top-1/2 left-1/4 w-16 h-16 bg-purple-500 rounded-full"></div>
           </div>
