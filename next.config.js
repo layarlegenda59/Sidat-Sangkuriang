@@ -3,6 +3,10 @@ const nextConfig = {
   trailingSlash: true,
   images: {
     unoptimized: true
+  },
+  // Force fresh deployment
+  generateBuildId: async () => {
+    return 'build-' + Date.now()
   }
 }
 
