@@ -36,7 +36,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => {
             <img 
               src="https://rkfkxhfvldavnirarytg.supabase.co/storage/v1/object/sign/sidatsangkuriang/logo%20final.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ZDE5M2Q1NS1kYTM5LTQ3YzQtOTUzNC00YTNlNzczMGZhOGUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRhdHNhbmdrdXJpYW5nL2xvZ28gZmluYWwucG5nIiwiaWF0IjoxNzU0Mzg3Mzg2LCJleHAiOjE3ODU5MjMzODZ9.biAZxLWajmOLbkN1eefvU1wTSFn8L3LY9kdyX8C5hCA"
               alt="Sidat Sangkuriang Logo"
-              className="h-14 sm:h-16 lg:h-16 w-auto cursor-pointer"
+              className="h-14 sm:h-16 lg:h-16 w-auto cursor-pointer transition-all duration-300 hover:scale-110 hover:rotate-3 hover:drop-shadow-lg"
               onClick={() => onPageChange('home')}
             />
           </div>
