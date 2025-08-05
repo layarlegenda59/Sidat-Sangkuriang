@@ -1,6 +1,6 @@
 import React from 'react';
 import { Droplets, Thermometer, Zap, BarChart3, Settings, Shield } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../hooks/useLanguage';
 import { useTranslation } from '../hooks/useTranslation';
 
 const FarmingPage: React.FC = () => {

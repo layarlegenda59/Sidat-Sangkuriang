@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Trash2, Plus, Minus, CreditCard, Lock } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { useCart } from '../contexts/CartContext';
+import { useLanguage } from '../hooks/useLanguage';
+import { useCart } from '../hooks/useCart';
 
 interface CheckoutPageProps {
   onPageChange: (page: string) => void;

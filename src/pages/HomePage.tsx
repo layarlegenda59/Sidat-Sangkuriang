@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Users, Award, Leaf } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../hooks/useLanguage';
 
 interface HomePageProps {
   onPageChange: (page: string) => void;

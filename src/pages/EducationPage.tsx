@@ -1,6 +1,6 @@
 import React from 'react';
 import { BookOpen, Play, FileText, Award } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
+import { useLanguage } from '../hooks/useLanguage';
 import { useTranslation } from '../hooks/useTranslation';
 
 const EducationPage: React.FC = () => {

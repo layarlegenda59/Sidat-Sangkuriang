@@ -1,7 +1,8 @@
 import React from 'react';
 import { Clock, Users, Award, Play } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { useCart, Product } from '../contexts/CartContext';
+import { useLanguage } from '../hooks/useLanguage';
+import { useCart } from '../hooks/useCart';
+import { Product } from '../contexts/CartContext';
 
 interface TrainingPageProps {
   onPageChange: (page: string) => void;

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { ShoppingCart, Star } from 'lucide-react';
-import { useLanguage } from '../contexts/LanguageContext';
-import { useCart, Product } from '../contexts/CartContext';
+import { useLanguage } from '../hooks/useLanguage';
+import { useCart } from '../hooks/useCart';
+import { Product } from '../contexts/CartContext';
 import { useTranslation } from '../hooks/useTranslation';
 
 interface ProductsPageProps {

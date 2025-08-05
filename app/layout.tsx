@@ -4,9 +4,11 @@ import '../src/index.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: 'Sidat Sangkuriang - Budidaya Sidat Modern',
-  description: 'Platform terdepan untuk budidaya sidat modern dengan teknologi IoT dan pelatihan komprehensif',
+export function generateMetadata(): Metadata {
+  return {
+    title: 'Sidat Sangkuriang - Budidaya Sidat Modern',
+    description: 'Platform terdepan untuk budidaya sidat modern dengan teknologi IoT dan pelatihan komprehensif',
+  }
 }
 
 export default function RootLayout({
