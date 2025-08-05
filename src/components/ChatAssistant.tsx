@@ -26,7 +26,7 @@ const ChatAssistant: React.FC = () => {
 
   const botResponses = {
     id: {
-      greeting: 'Halo! Saya Robot Pintar Sidat Sangkuriang. Saya siap membantu Anda dengan pertanyaan tentang budidaya sidat, pelatihan, produk, atau informasi apapun tentang perusahaan kami. Silakan tanya apa saja!',
+      greeting: 'Halo! Saya Robot Pintar Sidat Sangkuriang. Siap membantu pertanyaan tentang budidaya sidat, pelatihan, produk, atau informasi lainnya. Silakan tanya!',
       
       // Tentang Perusahaan
       about: 'Sidat Sangkuriang adalah perusahaan budidaya sidat terdepan dengan pengalaman 10+ tahun, telah melatih 2000+ petani, dan memiliki tingkat keberhasilan 98%. Kami berlokasi di Jalan Sangkuriang, Kabupaten Bandung Barat, Jawa Barat.',
@@ -182,7 +182,7 @@ const ChatAssistant: React.FC = () => {
       {isOpen && (
         <div className="fixed bottom-6 right-6 w-80 h-96 bg-white rounded-2xl shadow-2xl z-50 flex flex-col border border-gray-200">
           {/* Header */}
-          <div className="bg-gradient-to-r from-red-600 to-red-700 text-white p-5 rounded-t-2xl flex justify-between items-center">
+          <div className="bg-gradient-to-r from-red-600 to-red-700 text-white px-4 py-3 rounded-t-2xl flex justify-between items-center">
             <div>
               <h3 className="font-bold text-lg mb-0">{t('chat.title')}</h3>
               <p className="text-red-100 text-xs mt-0">Online • Siap membantu</p>

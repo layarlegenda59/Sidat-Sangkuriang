@@ -114,10 +114,10 @@ const EducationPage: React.FC = () => {
                   : 'Eel Farming Revolution: From Traditional to Digital'
                 }
               </h2>
-              <p className="text-gray-600 mb-6 leading-relaxed">
+              <p className="text-gray-600 text-sm mb-6 leading-relaxed">
                 {language === 'id'
-                  ? 'Discover how digital transformation is changing the landscape of eel farming in Indonesia, making it more efficient, sustainable, and profitable than ever before.'
-                  : 'Temukan bagaimana transformasi digital mengubah lanskap budidaya sidat di Indonesia, membuatnya lebih efisien, berkelanjutan, dan menguntungkan dari sebelumnya.'
+                  ? 'Temukan bagaimana transformasi digital mengubah lanskap budidaya sidat di Indonesia, membuatnya lebih efisien, berkelanjutan, dan menguntungkan dari sebelumnya.'
+                  : 'Discover how digital transformation is changing the landscape of eel farming in Indonesia, making it more efficient, sustainable, and profitable than ever before.'
                 }
               </p>
               <button className="bg-blue-700 hover:bg-blue-800 text-white px-4 py-2.5 sm:px-6 sm:py-3 lg:px-8 lg:py-3.5 rounded-lg sm:rounded-xl font-semibold text-sm sm:text-base lg:text-base transition-all duration-300 hover:scale-105 inline-flex items-center">

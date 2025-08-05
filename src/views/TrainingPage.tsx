@@ -99,12 +99,12 @@ const TrainingPage: React.FC<TrainingPageProps> = ({ onPageChange }) => {
                   {program.name[language]}
                 </h3>
                 
-                <p className="text-gray-700 mb-8 leading-relaxed">
+                <p className="text-gray-700 text-sm mb-8 leading-relaxed">
                   {program.description[language]}
                 </p>
                 
-                <div className="flex flex-col sm:flex-row items-center gap-4 sm:justify-between">
-                  <div className="bg-green-100 border-2 border-green-300 rounded-xl px-3 py-2 sm:px-4 sm:py-3 text-center w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row items-stretch gap-3 sm:gap-4">
+                  <div className="bg-green-100 border-2 border-green-300 rounded-xl px-4 py-3 text-center flex-1 sm:flex-none sm:min-w-[180px] flex items-center justify-center">
                     <a 
                       href="https://wa.me/6281234567890" 
                       target="_blank" 
@@ -116,7 +116,7 @@ const TrainingPage: React.FC<TrainingPageProps> = ({ onPageChange }) => {
                   </div>
                   <button
                     onClick={() => addToCart(program as Product)}
-                    className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-4 py-2 sm:px-6 sm:py-3 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 shadow-lg w-full sm:w-auto"
+                    className="bg-gradient-to-r from-teal-600 to-teal-700 hover:from-teal-700 hover:to-teal-800 text-white px-4 py-3 rounded-xl font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-105 shadow-lg flex-1 sm:flex-none sm:min-w-[140px]"
                   >
                     {t('training.enroll')}
                   </button>

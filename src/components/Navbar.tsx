@@ -34,7 +34,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentPage, onPageChange }) => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="https://rkfkxhfvldavnirarytg.supabase.co/storage/v1/object/sign/sidatsangkuriang/LOGO%20LANJUTAN.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ZDE5M2Q1NS1kYTM5LTQ3YzQtOTUzNC00YTNlNzczMGZhOGUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRhdHNhbmdrdXJpYW5nL0xPR08gTEFOSlVUQU4ucG5nIiwiaWF0IjoxNzU0MzUyOTEyLCJleHAiOjE3ODU4ODg5MTJ9.KbUXnFvlpo_B6P8c_wyr7EGe8WMko8RZJ4U3EZPXsdI"
+              src="https://rkfkxhfvldavnirarytg.supabase.co/storage/v1/object/sign/sidatsangkuriang/logo%20final.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV81ZDE5M2Q1NS1kYTM5LTQ3YzQtOTUzNC00YTNlNzczMGZhOGUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJzaWRhdHNhbmdrdXJpYW5nL2xvZ28gZmluYWwucG5nIiwiaWF0IjoxNzU0Mzg3Mzg2LCJleHAiOjE3ODU5MjMzODZ9.biAZxLWajmOLbkN1eefvU1wTSFn8L3LY9kdyX8C5hCA"
               alt="Sidat Sangkuriang Logo"
               className="h-14 sm:h-16 lg:h-16 w-auto cursor-pointer"
               onClick={() => onPageChange('home')}
